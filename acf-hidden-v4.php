@@ -122,7 +122,7 @@ class acf_field_hidden extends acf_field {
 		//print_r($field);
 		//echo '</pre>';
 		?>
-		<style>.field_key-<?php echo $field['key']; ?>{display:none;}</style>
+		<style type="text/css">.field_key-<?php echo $field['key']; ?>{display:none;}</style>
 		<input type="hidden" name="<?php echo esc_attr($field['name']) ?>" value="<?php echo esc_attr($field['value']) ?>" />
 		<?php
 	}
