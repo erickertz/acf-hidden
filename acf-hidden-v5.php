@@ -138,7 +138,6 @@ class acf_field_hidden extends acf_field {
 	*  @return	n/a
 	*/
 
-	/*
 	
 	function input_admin_enqueue_scripts() {
 		
@@ -157,7 +156,6 @@ class acf_field_hidden extends acf_field {
 		
 	}
 	
-	*/
 	
 	
 	/*
